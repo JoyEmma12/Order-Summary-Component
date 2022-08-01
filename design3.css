@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Outfit:wght@400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+
+    
+}
+
+
+
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--Pale-blue);
+}
+
+.container {
+    /*background-color: rgb(164, 206, 223);*/
+    width: 350px;
+    height: 560px;
+    background-color: var(--Very-pale-blue);
+    margin: 40px auto;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    text-align: center;
+
+}
+/*image styling*/
+.images {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+/*order styling*/
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 2px;
+}
+.para {
+    font-size: 16px;
+    color: var(--Desaturated-blue);
+}
+ .order1 {
+    font-size: 16px;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--Very-pale-blue);
+    padding: 12px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.order1 .p b {
+    color: var(--Dark-blue);
+}
+.order1 .p {
+    color: var(--Desaturated-blue);
+}
+
+ .order1 a {
+    text-decoration: underline;
+    text-align: center;
+    color: var(--Bright-blue);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.buton2  a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    }
+.buton2 {
+    border-radius: 10px;
+    border: none;
+    padding: 14px;
+    text-align: center;
+    background-color: var(--Bright-blue);
+    width: 70%;
+    margin: auto;
+    margin-right: 2px;
+    box-shadow: 0 2px 1px 2px hsl(245, 75%, 52%, ),
+    0 0 0 2px hsl(245, 75%, 52%, 0.788);
+}
+.buton1 {
+    color: var(--Desaturated-blue);
+    font-size: 16px;
+    text-shadow: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*for desktop*/
+@media screen and (max-width:750px) {
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url('c:\Users\JOY\AppData\Local\Temp\Temp1_order-summary-component-mini project 1.zip\order-summary-component-main\order-summary-component-main\images\pattern-background-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: var(--Pale-blue);
+    }
+    
+    
+}
